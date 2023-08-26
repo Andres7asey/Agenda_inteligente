@@ -1,0 +1,32 @@
+        /* Estilo del cuerpo de la página */
+        body {
+            background-color: lightblue; /* Color del fondo */
+            font-family: Arial; /* Tipo de fuente */
+            color: black; /* Color del texto */
+        }
+
+        /* Estilo del encabezado */
+        h1 {
+            text-align: center; /* Alineación del texto */
+            font-size: 36px; /* Tamaño del texto */
+        }
+
+        /* Estilo del botón */
+        button {
+            margin: 10px; /* Margen del botón */
+            padding: 10px; /* Relleno del botón */
+            font-size: 20px; /* Tamaño del texto */
+            cursor: pointer; /* Forma del cursor al pasar sobre el botón */
+        }
+
+        /* Estilo de la nota */
+        .nota {
+            width: 200px; /* Ancho de la nota */
+            height: 200px; /* Alto de la nota */
+            border: 1px solid black; /* Borde de la nota */
+            background-color: yellow; /* Color de la nota */
+            box-shadow: 5px 5px 5px gray; /* Sombra de la nota */
+            position: absolute; /* Posición de la nota */
+            top: 100px; /* Distancia desde el borde superior */
+            left: 100px; /* Distancia desde el borde izquierdo */
+        }
